@@ -22,7 +22,7 @@ public class HyperwalletPrepaidCardTest extends BaseModelTest<HyperwalletPrepaid
                 .cardNumber("test-card-number")
                 .cardBrand(HyperwalletPrepaidCard.Brand.VISA)
 
-                .dateOfExpiry(new Date())
+                .dateOfExpiry("2016-06")
                 .userToken("test-user-token");
         return prepaidCard;
     }

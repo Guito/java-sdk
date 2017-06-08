@@ -31,7 +31,7 @@ public class HyperwalletPrepaidCard extends HyperwalletBaseMonitor {
     private String cardNumber;
     private Brand cardBrand;
 
-    private Date dateOfExpiry;
+    private String dateOfExpiry;
 
     private String userToken;
 
@@ -203,16 +203,16 @@ public class HyperwalletPrepaidCard extends HyperwalletBaseMonitor {
         return this;
     }
 
-    public Date getDateOfExpiry() {
+    public String getDateOfExpiry() {
         return dateOfExpiry;
     }
 
-    public void setDateOfExpiry(Date dateOfExpiry) {
+    public void setDateOfExpiry(String dateOfExpiry) {
         addField("dateOfExpiry", dateOfExpiry);
         this.dateOfExpiry = dateOfExpiry;
     }
 
-    public HyperwalletPrepaidCard dateOfExpiry(Date dateOfExpiry) {
+    public HyperwalletPrepaidCard dateOfExpiry(String dateOfExpiry) {
         addField("dateOfExpiry", dateOfExpiry);
         this.dateOfExpiry = dateOfExpiry;
         return this;

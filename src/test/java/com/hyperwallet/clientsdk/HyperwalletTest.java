@@ -394,7 +394,7 @@ public class HyperwalletTest {
         prepaidCard.setTransferMethodCurrency("test-transfer-method-currency");
         prepaidCard.setCardNumber("test-card-number");
         prepaidCard.setCardBrand(HyperwalletPrepaidCard.Brand.VISA);
-        prepaidCard.setDateOfExpiry(new Date());
+        prepaidCard.setDateOfExpiry("2020-05");
         prepaidCard.setCardPackage("test-card-package");
 
         HyperwalletPrepaidCard prepaidCardResponse = new HyperwalletPrepaidCard();
@@ -435,7 +435,7 @@ public class HyperwalletTest {
         prepaidCard.setTransferMethodCurrency("test-transfer-method-currency");
         prepaidCard.setCardNumber("test-card-number");
         prepaidCard.setCardBrand(HyperwalletPrepaidCard.Brand.VISA);
-        prepaidCard.setDateOfExpiry(new Date());
+        prepaidCard.setDateOfExpiry("2020-05");
         prepaidCard.setCardPackage("test-card-package");
 
         HyperwalletPrepaidCard prepaidCardResponse = new HyperwalletPrepaidCard();
